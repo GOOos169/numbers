@@ -32,6 +32,9 @@ if digit_1000 != 0:
     if th_digit_100 != 0:
        print( num100_list[ th_digit_100 - 1], end = " " )
 
+       if th_digit == 0 and th_digit == 0:
+           print("тысяч", end = " ")
+
     if th_digit_1x > 0 and th_digit_1x < 10:
         print( num1x_list[ th_digit_1x - 1 ], end = " " )
 
@@ -39,6 +42,9 @@ if digit_1000 != 0:
     else:
         if th_digit_10 != 0:
             print( num10_list[ th_digit_10 - 1 ], end = " ")
+
+            if th_digit == 0:
+                print("тысяч", end = " ")
             
         if th_digit != 0:
             print( num1000_list[th_digit - 1], end = " " )
